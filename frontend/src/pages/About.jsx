@@ -13,6 +13,7 @@ const About = () => {
               <Subtitle subtitle={"Tourists Support"} />
               <h2 className="testimonial__title">
                 The People Who Make It Happen!
+                and make it so far!
               </h2>
             </Col>
             <Col lg="12">
