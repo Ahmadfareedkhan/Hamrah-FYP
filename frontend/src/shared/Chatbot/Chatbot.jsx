@@ -111,7 +111,7 @@ const Chatbot = () => {
         <Modal.Header closeButton>
           <Modal.Title>
             <h1>
-              <b>Sufar</b>
+              <b>Hamrah</b>
             </h1>
           </Modal.Title>
         </Modal.Header>
