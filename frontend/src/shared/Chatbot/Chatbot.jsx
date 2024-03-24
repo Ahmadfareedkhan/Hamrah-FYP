@@ -13,7 +13,7 @@ import {
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
 
-// const API_KEY = "jkbuekhuigutfycyrxyrdry";
+const API_KEY = "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";
 const systemMessage = {
   //  Explain things like you're talking to a software professional with 5 years of experience.
   role: "system",
@@ -75,7 +75,7 @@ const Chatbot = () => {
     await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: "Bearer " + process.env.API_KEY,
+        Authorization: "Bearer " + API_KEY,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(apiRequestBody),
